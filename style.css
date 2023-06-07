@@ -1,0 +1,169 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background: wheat;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.carouseL-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carouseL-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carouseL-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carouseL-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9px;
+}
+.carouseL-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+    z-index: 1;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-Light .navbar-brand{
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-Light .navbar-brand:focus,
+.navbar-Light .navbar-brand:hover{
+    color: black;
+}
+.navbar-Light .navbar-nav .navbar-Link{
+    color: black;
+}
+.w-100{
+    height: 100vh;
+}
+.services .card-body{
+    font-size: 10px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .carouseL-caption{
+        bottom: 370px;
+    }
+    .carouseL-caption p{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carouseL-caption{
+        bottom: 125px;
+    }
+    .carouseL-caption h5{
+        font-size: 17px;
+    }
+    .carouseL-caption a{
+        padding: 10px 15px;
+    }
+    .carouseL-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+    .about{
+        text-size-adjust: 0 25px 0 0;
+    }
+
+}
+.about{
+    background-color: wheat;
+    font-size: 15px;
+}
+.about h1{
+    font-size: 25px;
+}
+.services{
+    background-color: wheat;
+}
+.activity{
+    background-color: wheat;
+}
+.contact{
+    background-color: wheat;
+}
+    td {
+        border: 1px solid white;
+        align-items: center;
+        text-align: center;
+        font-style: normal;
+    }
+    .section {
+        border: none;
+    }
+    h5 {
+        color: black;
+        padding: 5px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    table tr td{
+        color:  rgb(41, 39, 39);
+    }
+    td:hover{
+        transform: scale(90%);
+        transition: all ease 1s;
+        cursor: pointer;
+    }
+    .element1{
+        color: orange;
+    }
+    .b{
+        background-color: rgb(154, 178, 243);
+    }
+    .c{
+        background-color: rgb(158, 235, 235);
+    }
+    .r{
+        background-color: rgb(248, 190, 205);
+    }
+    .v{
+        background-color: rgb(225, 210, 252);
+    }
+    .g{
+        background-color: rgb(131, 211, 174);
+    }
+    .y{
+        background-color: rgb(245, 245, 194);
+    }
+    .p{
+        background-color: rgb(247, 204, 211);
+    }
+    .o{
+        background-color: rgb(250, 201, 155);
+    }
+    .bg{
+        background-color: rgb(150, 178, 230);
+    }
+    .gr{
+        background-color: rgb(165, 160, 160);
+    }    
+
