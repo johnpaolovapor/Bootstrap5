@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-muted fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span class="text-warning">Group</span>Nine</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#carouselExampleCaptions">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Service</a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button type="button" class="btn btn-muted dropdown-toggle" data-bs-toggle="dropdown">
+                    ACTIVITIES
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#periodic">Periodic Table</a></li>
+                    <li><a class="dropdown-item" href="#survey">Survey Form</a></li>
+                  </ul>
+                </div>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"> Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h1 class="text-dark"> <span class="text-warning">Group</span>Nine</h1>
+              <h4>Whether it's developing cutting-edge technologies, designing user-centric experiences, or implementing strategic website campaigns, our group is committed to delivering exceptional results. </h4>
+              <p><a href="#home" class="btn btn-dark mt3">Welcome!</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h1 class="text-dark"> <span class="text-warning">Group</span>Nine</h1>
+              <h4>We believe that by harnessing the power of teamwork, we can make a real difference in the world and shape a brighter future..</h4>
+              <p><a href="#about" class="btn btn-dark mt3">About Us</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/4.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h1 class="text-dark"> <span class="text-warning">Group</span>Nine</h1>
+              <h4>Thank you for your interest in our group. We look forward to collaborating with you and creating meaningful impact together.</h4>
+              <p><a href="#contact" class="btn btn-dark mt3">Contact Us</a></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--ABOUT SECTION-->
+
+      <section id="about" class="about section-padding">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-5 col-md-12 col-12">
+                        <div class="about-img">
+                            <img src="images/98.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-6 ps-lg-5 mt-md-10">
+                        <div class="about-text">
+                            <h2>We Provide Best Quality <br>Service Ever</h2>
+                            <p>We take pride in providing the best quality service ever. We strive to exceed customer expectations, ensuring exceptional results, attention to detail, and a commitment to excellence in every aspect of our service delivery. Our dedicated team of professionals goes above and beyond to ensure customer satisfaction and maintain our reputation for unparalleled quality. Trust us to deliver an experience that stands out and leaves a lasting impression.</p>
+                            <a href="#" class="btn btn-dark">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+
+      <!--services section-->
+      <section id="services" class="services section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="section-header text-center pb5">
+                        <h2>Our Services</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Blanditiis culpa cumque libero obcaecati nostrum debitis.</p>  
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-danger pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-subtract"></i>
+                            <h3 class="card-title">Best Quality</h3>
+                            <p class="lead">The best quality website ensures seamless functionality, captivating design, and informative content to deliver an exceptional user experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-success pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-subtract"></i>
+                            <h3 class="card-title">Sustainability</h3>
+                            <p class="lead">A sustainable website promotes eco-friendly practices, prioritizes energy efficiency, and strives for a minimal carbon footprint, contributing to a greener digital landscape.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-secondary pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-subtract"></i>
+                            <h3 class="card-title">Integrity</h3>
+                            <p class="lead">Integrity is the cornerstone of a trustworthy website, maintaining transparency, honesty, and ethical practices to foster credibility and user confidence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+      <div class="jb" id="periodic">
+        <div class="col-lg-6 col-12">
+          <h5>Periodic Table</h5>
+          <div class="container">
+          <table>
+              <tr>
+                  <td class="b">1<br />H<br>Hydrogen</td>
+                  <td class="section" colspan="16"></td>
+                  <td class="p">2<br />He<br>Helium</td>
+              </tr>
+              <tr>
+                  <td class="c">3<br />Li<br>Lithium</td>
+                  <td class="r">4<br />Be<br>Baryllium</td>
+                  <td class="section" colspan="10"></td>
+                  <td class="y">5<br />B<br>Boron</td>
+                  <td class="b">6<br />C<br>Carbon</td>
+                  <td class="b">7<br />N<br>Nitrogen</td>
+                  <td class="b">8<br />O<br>Oxygen</td>
+                  <td class="b">9<br />f<br>Flourine</td>
+                  <td class="p">10<br />Ne<br>Neon</td>
+              </tr>
+              <tr>
+                  <td class="c">11<br />Na<br>Sodium</td>
+                  <td class="r">12<br />Mg<br>Magnesium</td>
+                  <td class="section" colspan="10"></td>
+                  <td class="g">13<br />Al<br>Aluminum</td>
+                  <td class="y">14<br />Si<br>Silicon</td>
+                  <td class="b">15<br />P<br>Phosphorus</td>
+                  <td class="b">16<br />S<br>Sulfor</td>
+                  <td class="b">17<br />Cl<br>Chlorine</td>
+                  <td class="p">18<br />Ar<br>Argon</td>
+              </tr>
+              <tr>
+                  <td class="c">19<br />K<br>Potassium</td>
+                  <td class="r">20<br />Ca<br>Calcium</td>
+                  <td class="v">21<br />Sc<br>Scandium</td>
+                  <td class="v">22<br />Ti<br>Titanium</td>
+                  <td class="v">23<br />V<br>Vanadium</td>
+                  <td class="v">24<br />Cr<br>Chronium</td>
+                  <td class="v">25<br />Mn<br>Manganese</td>
+                  <td class="v">26<br />Fe<br>Iron</td>
+                  <td class="v">27<br />Co<br>Cobalt</td>
+                  <td class="v">28<br />Ni<br>Nickel</td>
+                  <td class="v">29<br />Cu<br>Copper</td>
+                  <td class="v">30<br />Zn<br>Zinc</td>
+                  <td class="g">31<br />Ga<br>Gallium</td>
+                  <td class="y">32<br />Ge<br>Germanium</td>
+                  <td class="y">33<br />As<br>Arsenic</td>
+                  <td class="b">34<br />Se<br>Selenium</td>
+                  <td class="b">35<br />Br<br>Bromine</td>
+                  <td class="p">36<br />Kr<br>Krypton</td>
+              </tr>
+              <tr>
+                  <td class="c">37<br />Rb<br>Rubidium</td>
+                  <td class="r">38<br />Sr<br>Stronium</td>
+                  <td class="v">39<br />Y<br>Yttrium</td>
+                  <td class="v">40<br />Zr<br>Zirconium</td>
+                  <td class="v">41<br />Nb<br>Niobium</td>
+                  <td class="v">42<br />Mo<br>Molybdenum</td>
+                  <td class="v">43<br />Tc<br>Technetium</td>
+                  <td class="v">44<br />RU<br>Ruthenium</td>
+                  <td class="v">45<br />Rh<br>Rhodium</td>
+                  <td class="v">46<br />Pd<br>Paladium</td>
+                  <td class="v">47<br />Ag<br>Silver</td>
+                  <td class="v">48<br />Cd<br>Cadnium</td>
+                  <td class="g">49<br />In<br>Indium</td>
+                  <td class="g">50<br />Sn<br>Tin</td>
+                  <td class="y">51<br />Sb<br>Antimony</td>
+                  <td class="y">52<br />Te<br>Tellurium</td>
+                  <td class="b">53<br />I<br>Iodine</td>
+                  <td class="p">54<br />Xe<br>Xenon</td>
+              </tr>
+              <tr>
+                  <td class="c">55<br />Cs<br>Caesium</td>
+                  <td class="r">56<br />Ba<br>Barium</td>
+                  <td class="c">57-71<br /></td>
+                  <td class="v">72<br />Hf<br>Hafnium</td>
+                  <td class="v">73<br />Ta<br>Tantalum</td>
+                  <td class="v">74<br />W<br>Tungsten</td>
+                  <td class="v">75<br />Re<br>Rhenium</td>
+                  <td class="v">76<br />Os<br>Osmium</td>
+                  <td class="v">77<br />Ir<br>Iridium</td>
+                  <td class="v">78<br />Pt<br>Platinum</td>
+                  <td class="v">79<br />Au<br>Gold</td>
+                  <td class="v">80<br />Hg<br>Mercury</td>
+                  <td class="g">81<br />Tl<br>Tallium</td>
+                  <td class="g">82<br />Pb<br>Lead</td>
+                  <td class="g">83<br />Bi<br>Bismuth</td>
+                  <td class="g">84<br />Po<br>Polonium</td>
+                  <td class="g">85<br />At<br>Astatine</td>
+                  <td class="p">86<br />Rn<br>Radon</td>
+              </tr>
+              <tr>
+                  <td class="c">87<br />Fr<br>Francium</td>
+                  <td class="r">88<br />Ra<br>Radium</td>
+                  <td class="o">89-103<br /></td>
+                  <td class="v">104<br />Rf<br>Rutherfordium</td>
+                  <td class="v">105<br />Db<br>Dubnium</td>
+                  <td class="v">106<br />Sg<br>Seaborgium</td>
+                  <td class="v">107<br />Bh<br>Bohrium</td>
+                  <td class="gr">108<br />Hs<br>Hassium</td>
+                  <td class="gr">109<br />Mt<br>Meitnerium</td>
+                  <td class="gr">110<br />Ds<br>Darmastadium</td>
+                  <td class="gr">111<br />Rg<br>Roentgenium</td>
+                  <td class="gr">112<br />Cn<br>Copernicium</td>
+                  <td class="gr">113<br />Nh<br>Nihoniom</td>
+                  <td class="gr">114<br />Fl<br>Flerovium</td>
+                  <td class="gr">115<br />MC<br>Moscovium</td>
+                  <td class="gr">116<br />Lv<br>Livermorium</td>
+                  <td class="gr">117<br />Ts<br>Tennessine</td>
+                  <td class="gr">118<br />Og<br>Oganesson</td>
+              </tr>
+              </table>
+      <br />
+              <table>
+              <tr>
+                  <td class="bg">57<br />La<br>Lathanium</td>
+                  <td class="bg">58<br />Ce<br>Cerium</td>
+                  <td class="bg">59<br />Pr<br>Praseodymium</td>
+                  <td class="bg">60<br />Nd<br>Neodynium</td>
+                  <td class="bg">61<br />Pm<br>Prometium</td>
+                  <td class="bg">62<br />Sm<br>Samarioum</td>
+                  <td class="bg">63<br />Eu<br>Erouopium</td>
+                  <td class="bg">64<br />Gd<br>Goldium</td>
+                  <td class="bg">65<br />Tb<br>Terbium</td>
+                  <td class="bg">66<br />Dy<br>Dysprosium</td>
+                  <td class="bg">67<br />Ho<br>Holmium</td>
+                  <td class="bg">68<br />Er<br>Erbium</td>
+                  <td class="bg">69<br />Tm<br>Thulium</td>
+                  <td class="bg">70<br />Yb<br>Ytterbium</td>
+                  <td class="bg">71<br />Lu<br>Lutetium</td>
+              </tr>
+              <tr>
+                  <td class="o">89<br />Ac<br>Actiniom</td>
+                  <td class="o">90<br />Th<br>Thorium</td>
+                  <td class="o">91<br />Pa<br>Protactium</td>
+                  <td class="o">92<br />U<br>Uranium</td>
+                  <td class="o">93<br />Np<br>Neptunium</td>
+                  <td class="o">94<br />Pu<br>Platinum</td>
+                  <td class="o">95<br />Am<br>Americium</td>
+                  <td class="o">96<br />Cm<br>Curium</td>
+                  <td class="o">97<br />Bk<br>Berkelium</td>
+                  <td class="o">98<br />Cf<br>Californium</td>
+                  <td class="o">99<br />Es<br>Estenium</td>
+                  <td class="o">100<br />Fm<br>Fermium</td>
+                  <td class="o">101<br />Md<br>Memdelevium</td>
+                  <td class="o">102<br />No<br>Nobelium</td>
+                  <td class="o">103<br />Lr<br>Lawrencium</td>
+              </tr>
+          </table>
+      </div>
+      </div>
+    </div>
+    <section id="survey">
+      <div class="container-fluid">
+        <p class="pb-5 d-flex justify-content-center">
+          <a class="btn btn-info" data-bs-toggle="collapse" href="#surveyForm" role="button" aria-expanded="false"
+              aria-controls="surveyForm">
+              Survey Form
+          </a>
+      </p>
+      <div class="collapse" id="surveyForm">
+          <div class="card card-body bg-primary">
+              <div class="container d-flex justify-content-center">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title">Survey Form</h5>
+
+                          <div class="row mb-2">
+                              <div class="col">
+                                  <label for="firstName" class="form-label mb-0">First Name</label>
+                                  <input type="text" class="form-control" id="firstName">
+                              </div>
+                              <div class="col">
+                                  <label for="lastName" class="form-label mb-0">Last Name</label>
+                                  <input type="text" class="form-control" id="lastName">
+                              </div>
+                          </div>
+
+                          <div class="info mb-4">
+                              <label for="user" class="form-label mb-0">Email:</label>
+                              <input type="email" class="form-control mb-2" id="user" placeholder="useraddress@example.com">
+                          </div>
+
+                          <div class="degree mb-3">
+                              <label for="degree">Degree:</label>
+                              <select id="degree">
+                                  <option class="fontstyle">--Select--</option>
+                                  <option>BSIT</option>
+                                  <option>BSHM</option>
+                                  <option>BSEd</option>
+                              </select>
+                          </div>
+                          <div class="year mb-3">
+                              <label for="year">Year:</label>
+                              <select id="year">
+                                  <option class="fontstyle">--Select--</option>
+                                  <option>1st</option>
+                                  <option>2nd</option>
+                                  <option>3rd</option>
+                                  <option>4th</option>
+                              </select>
+                          </div>
+                          <div class="section mb-3">
+                              <label for="section">Section:</label>
+                              <select id="section">
+                                  <option class="fontstyle">--Select--</option>
+                                  <option>A</option>
+                                  <option>B</option>
+                                  <option>C</option>
+                                  <option>D</option>
+                              </select>
+                          </div>
+
+                          <div class="text-center mb-5">
+                              <h6 class="mb-0">Gender</h6>
+                              <input class="form-check-input mt-0" type="radio" name="Gender" value="" id="Male">
+                              <label class="form-check-label" for="Male">Male</label>
+                              <input class="form-check-input ms-5" type="radio" name="Gender" value="" id="Female">
+                              <label class="form-check-label" for="Female">Female</label>
+                          </div>
+
+                          <button class="btn btn-outline-dark" type="submit">Submit</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <section id="contact" class="contact section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="co-md-12">
+            <div class="section-header text-center pb-5">
+              <h2>Contact Us</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, eaque!</p>
+            </div>
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-sm-4 col-12">
+          <div class="card text-center">
+            <div class="card-body bg-dark">
+              <img src="images/pao.jpg" alt="" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2 text-light">John Paolo M. Vapor</h3>
+              <p class="card-text text-light">09771088991</p>
+              <p class="card-text text-light">I'm here to assist you, so feel free to ask any questions you have or share any information you seek.</p>
+
+                <p class="socials">
+                  <i class="bi bi-facebook text-muted mx-1"></i>
+                  <i class="bi bi-gmail text-muted mx-1"></i>
+                  <i class="bi bi-messenger text-muted mx-1"></i>
+                </p>
+            </div>
+          </div>
+        </div>
+      <div class="col-sm-4 col-12">
+          <div class="card text-center bg-dark">
+            <div class="card-body">
+              <img src="images/jb.jpg" alt="" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2 text-light">John Brian A. Ybarrita</h3>
+              <p class="card-text text-light">09771657539</p>
+              <p class="card-text text-light">If u have any web development needs, I'm eager to connect and explore how we can work together to bring your ideas to life."</p>
+
+                <p class="socials">
+                  <i class="bi bi-facebook text-muted mx-1"></i>
+                  <i class="bi bi-gmail text-muted mx-1"></i>
+                  <i class="bi bi-messenger text-muted mx-1"></i>
+                </p>
+            </div>
+          </div>
+        </div>
+      <div class="col-sm-4 col-12">
+          <div class="card text-center">
+            <div class="card-body bg-dark">
+              <img src="images/jims.jpg" alt="" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2 text-light">James Sumagang</h3>
+              <p class="card-text text-light">09324668590</p>
+              <p class="card-text text-light">I'm excited to work with you and create a website that leaves a lasting impression on your audience."</p>
+
+                <p class="socials">
+                  <i class="bi bi-facebook text-dark mx-1"></i>
+                  <i class="bi bi-gmail text-dark mx-1"></i>
+                  <i class="bi bi-messenger text-dark mx-1"></i>
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
